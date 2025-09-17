@@ -15,6 +15,11 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Cybersecurity themed variants
+        cyber: "gradient-cyber text-primary-foreground hover:shadow-cyber transition-cyber font-semibold",
+        "cyber-outline": "border border-cyber-green bg-transparent text-cyber-green hover:bg-cyber-green hover:text-primary-foreground transition-cyber",
+        "cyber-ghost": "text-cyber-green hover:bg-cyber-green/10 hover:text-cyber-green-glow transition-glow",
+        terminal: "bg-cyber-darker border border-cyber-border text-cyber-green font-mono text-xs hover:shadow-glow transition-glow",
       },
       size: {
         default: "h-10 px-4 py-2",
